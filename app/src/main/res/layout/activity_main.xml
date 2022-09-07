@@ -17,12 +17,12 @@
 
            <TextView
                android:id="@+id/textView2"
-               android:layout_width="299dp"
-               android:layout_height="71dp"
+               android:layout_width="265dp"
+               android:layout_height="74dp"
+               android:layout_below="@+id/textView3"
                android:layout_alignParentStart="true"
-               android:layout_alignParentTop="true"
-               android:layout_marginStart="23dp"
-               android:layout_marginTop="52dp"
+               android:layout_marginStart="39dp"
+               android:layout_marginTop="-200dp"
                android:gravity="center"
                android:text=" This is MainActivity"
                android:textColor="#034306"
@@ -34,10 +34,37 @@
                android:layout_height="69dp"
                android:layout_alignParentStart="true"
                android:layout_alignParentTop="true"
-               android:layout_marginStart="69dp"
-               android:layout_marginTop="292dp"
+               android:layout_marginStart="72dp"
+               android:layout_marginTop="395dp"
+               android:background="#34F809"
                android:text="Open ChildActivity"
-               android:textColor="#03454C"
-               android:background="#34F809"/>
+               android:textColor="#03454C" />
+
+           <TextView
+               android:id="@+id/textView3"
+               android:layout_width="264dp"
+               android:layout_height="64dp"
+               android:layout_below="@+id/view2"
+               android:layout_alignParentStart="true"
+               android:layout_marginStart="47dp"
+               android:layout_marginTop="10dp"
+               android:gravity="center"
+               android:text="Phan Đức Kiên"
+               android:textColor="#7A0722"
+               android:textSize="10pt" />
+
+           <TextView
+               android:id="@+id/textView4"
+               android:layout_width="261dp"
+               android:layout_height="69dp"
+               android:layout_below="@+id/textView3"
+               android:layout_alignParentStart="true"
+               android:layout_marginStart="51dp"
+               android:layout_marginTop="-13dp"
+               android:gravity="center"
+               android:text="2050531200203"
+               android:textColor="#07247A"
+               android:textSize="10pt" />
+
        </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
